@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "prisma": "^6.17.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.5",
+    "@prisma/client": "^6.17.0",
+    "bcrypt": "^6.0.0",
+    "hono": "^4.9.10"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && node dist/server.js"
+  }
+}
