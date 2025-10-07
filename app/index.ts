@@ -86,3 +86,5 @@ app.get("/profile/:id", async (c) => {
         data: profile
     }, 200);
 });
+
+export default app;
